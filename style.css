@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+nav{
+    text-align: end;
+    margin-right: 50px;
+    margin-top: 15px;
+    
+}
+nav a{
+    text-decoration:none;
+    margin-left: 20px;
+    color :black;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.container2 {
+    display: flex;
+    background-image: url(img/bg2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.container3 {
+    display: flex;
+    margin: 5%;
+    justify-content:center;
+    box-shadow: 0px 0px 40px rgb(187, 187, 187);
+    border-radius:17px;
+}
+.container3 div {
+    padding: 40px 125px
+}
+
+.primary-color {
+    color: #FC8F49;
+}
+
+.title1 {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 120%;
+}
+
+.about-me {
+    width: 60%;
+    font-size: 20px
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+    margin: auto;
+}
+
+.person-img {
+    width: 60%;
+}
+
+.half-width-person {
+    padding-left: 12%;
+    padding-top: 30px;
+
+}
+
+.btn {
+    text-decoration: none;
+    background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
+    padding: 25px 40px;
+    color: white;
+    border-radius: 100px;
+    font-size: 22px
+}
+
+.my-recipies {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    margin: 5%;
+    margin-bottom: 100px;
+    box-shadow: 1px 1px 30px rgb(187, 187, 187);
+    padding: 20px;
+    border-radius: 27px;
+    
+}
+.card img{
+    width:100%;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding-bottom: 150px;
+    padding-top:20px;
+}
+footer p{
+    color: white;
+    font-size:20px
+}
+.white-color{
+    color:rgb(116, 110, 110)
+}
