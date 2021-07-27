@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
-nav{
+nav {
     text-align: end;
     margin-right: 50px;
     margin-top: 15px;
-    
+
 }
-nav a{
-    text-decoration:none;
+
+nav a {
+    text-decoration: none;
     margin-left: 20px;
-    color :black;
+    color: black;
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -26,13 +28,15 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
 .container3 {
     display: flex;
     margin: 5%;
-    justify-content:center;
+    justify-content: center;
     box-shadow: 0px 0px 40px rgb(187, 187, 187);
-    border-radius:17px;
+    border-radius: 17px;
 }
+
 .container3 div {
     padding: 40px 125px
 }
@@ -86,28 +90,32 @@ body {
     align-items: center;
     text-align: center;
 }
-.card{
+
+.card {
     margin: 5%;
     margin-bottom: 100px;
     box-shadow: 1px 1px 30px rgb(187, 187, 187);
     padding: 20px;
     border-radius: 27px;
-    
-}
-.card img{
-    width:100%;
+
 }
 
-footer{
+.card img {
+    width: 100%;
+}
+
+footer {
     background-color: black;
     text-align: center;
     padding-bottom: 150px;
-    padding-top:20px;
+    padding-top: 20px;
 }
-footer p{
+
+footer p {
     color: white;
-    font-size:20px
+    font-size: 20px
 }
-.white-color{
-    color:rgb(116, 110, 110)
+
+.white-color {
+    color: rgb(116, 110, 110)
 }
