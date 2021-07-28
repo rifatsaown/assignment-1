@@ -4,7 +4,6 @@ nav {
     text-align: end;
     margin-right: 50px;
     margin-top: 15px;
-
 }
 
 nav a {
@@ -43,6 +42,10 @@ body {
 
 .primary-color {
     color: #FC8F49;
+}
+
+.white-color {
+    color: rgb(116, 110, 110)
 }
 
 .title1 {
@@ -97,6 +100,8 @@ body {
     box-shadow: 1px 1px 30px rgb(187, 187, 187);
     padding: 20px;
     border-radius: 27px;
+    width: 550;
+    height: 450;
 
 }
 
@@ -104,18 +109,31 @@ body {
     width: 100%;
 }
 
+/* footer part */
 footer {
     background-color: black;
     text-align: center;
-    padding-bottom: 150px;
-    padding-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 
-footer p {
+.btn2 {
+    padding: 7px 30px;
+    margin-left: 2px;
+    text-decoration: none;
+}
+
+.btn-end {
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #FBA24F, #FF1E1E);
     color: white;
-    font-size: 20px
 }
 
-.white-color {
-    color: rgb(116, 110, 110)
+.footer {
+    padding-top: 50px;
+}
+
+.text-bottom {
+    color: white;
+    font-size: 20px;
 }
