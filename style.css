@@ -72,7 +72,6 @@ body {
 .half-width-person {
     padding-left: 12%;
     padding-top: 30px;
-
 }
 
 .btn {
@@ -83,7 +82,7 @@ body {
     border-radius: 100px;
     font-size: 22px
 }
-
+/*My Recipes*/
 .my-recipies {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -93,7 +92,7 @@ body {
     align-items: center;
     text-align: center;
 }
-
+/* Recipes card */
 .card {
     margin: 5%;
     margin-bottom: 100px;
